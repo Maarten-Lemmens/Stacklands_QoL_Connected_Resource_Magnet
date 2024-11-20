@@ -1,0 +1,18 @@
+{
+    "$schema": "../schemas/card.schema.json",
+    "id": "card_connected_resource_magnet",
+    "nameTerm": "card_connected_resource_magnet_name",
+    "descriptionTerm": "card_connected_resource_magnet_description",
+    "icon": "resource_magnet.png",
+    "value": 6,
+    "script": "ConnectedResourceMagnetModNS.ConnectedResourceMagnet",
+    "type": "Structures",
+    "_IsBuilding": true,
+    "_EnergyConnectors": [
+        {
+          "EnergyConnectionType": "output",
+          "EnergyConnectionStrength": 5,
+          "EnergyConnectionAmount": 1
+        }
+    ]
+  }

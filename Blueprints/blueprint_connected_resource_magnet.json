@@ -1,0 +1,14 @@
+{
+  "$schema": "../schemas/blueprint.schema.json",
+  "id": "blueprint_connected_resource_magnet",
+  "nameTerm": "blueprint_connected_resource_magnet_name",
+  "group": "Building",
+  "subprints": [
+    {
+      "RequiredCards": "gold_bar, iron_bar, magic_dust, villager",
+      "ResultCard": "card_connected_resource_magnet",
+      "Time": 30,
+      "StatusTerm": "blueprint_connected_resource_magnet_status"
+    }
+  ]
+}
